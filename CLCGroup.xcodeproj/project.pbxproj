@@ -17,6 +17,8 @@
 		0598C80D1EE923220083DC2A /* CLCGroupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0598C80C1EE923220083DC2A /* CLCGroupUITests.swift */; };
 		0598C81B1EE932C20083DC2A /* SignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0598C81A1EE932C20083DC2A /* SignViewController.swift */; };
 		0598C81F1EE93A110083DC2A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0598C81E1EE93A110083DC2A /* GoogleService-Info.plist */; };
+		05C5D5691EEA4D99004FFF17 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C5D5681EEA4D99004FFF17 /* LoginViewController.swift */; };
+		05C5D56B1EEA85B7004FFF17 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C5D56A1EEA85B7004FFF17 /* UserProfile.swift */; };
 		1B5ECC7F276E90CB9A051FDF /* Pods_CLCGroupTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C785EE71A2F09C814CBF229 /* Pods_CLCGroupTests.framework */; };
 		CDE772FB67F406047C2CB71A /* Pods_CLCGroupUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9359427206791DA8F7E8F713 /* Pods_CLCGroupUITests.framework */; };
 		FFAEDE9A1F650E94C936DA9D /* Pods_CLCGroup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DC46CAD1F9B2EC8B56B7B1 /* Pods_CLCGroup.framework */; };
@@ -56,6 +58,8 @@
 		0598C80E1EE923220083DC2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0598C81A1EE932C20083DC2A /* SignViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignViewController.swift; sourceTree = "<group>"; };
 		0598C81E1EE93A110083DC2A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		05C5D5681EEA4D99004FFF17 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		05C5D56A1EEA85B7004FFF17 /* UserProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		18DC46CAD1F9B2EC8B56B7B1 /* Pods_CLCGroup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CLCGroup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B4938BB589296459A09CA45 /* Pods-CLCGroupUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLCGroupUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CLCGroupUITests/Pods-CLCGroupUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4C785EE71A2F09C814CBF229 /* Pods_CLCGroupTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CLCGroupTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,8 +125,10 @@
 			isa = PBXGroup;
 			children = (
 				0598C7E91EE923220083DC2A /* AppDelegate.swift */,
+				05C5D56A1EEA85B7004FFF17 /* UserProfile.swift */,
 				0598C7EB1EE923220083DC2A /* ViewController.swift */,
 				0598C81A1EE932C20083DC2A /* SignViewController.swift */,
+				05C5D5681EEA4D99004FFF17 /* LoginViewController.swift */,
 				0598C7ED1EE923220083DC2A /* Main.storyboard */,
 				0598C7F31EE923220083DC2A /* Assets.xcassets */,
 				0598C7F51EE923220083DC2A /* LaunchScreen.storyboard */,
@@ -461,7 +467,9 @@
 			files = (
 				0598C7F21EE923220083DC2A /* CLCGroup.xcdatamodeld in Sources */,
 				0598C7EC1EE923220083DC2A /* ViewController.swift in Sources */,
+				05C5D56B1EEA85B7004FFF17 /* UserProfile.swift in Sources */,
 				0598C7EA1EE923220083DC2A /* AppDelegate.swift in Sources */,
+				05C5D5691EEA4D99004FFF17 /* LoginViewController.swift in Sources */,
 				0598C81B1EE932C20083DC2A /* SignViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

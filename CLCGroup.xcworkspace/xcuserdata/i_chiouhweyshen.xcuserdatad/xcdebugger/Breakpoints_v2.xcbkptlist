@@ -58,12 +58,76 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CLCGroup/ViewController.swift"
-            timestampString = "518602981.950818"
+            timestampString = "518669355.766021"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "29"
             endingLineNumber = "29"
             landmarkName = "signBtn(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CLCGroup/SignViewController.swift"
+            timestampString = "518694704.325771"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "checkBtn(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CLCGroup.SignViewController.checkBtn (Any) -&gt; ()"
+                  moduleName = "CLCGroup"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/i_chiouhweyshen/CLCGroup/CLCGroup/SignViewController.swift"
+                  timestampString = "518694477.496749"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CLCGroup.SignViewController.(checkBtn (Any) -&gt; ()).(closure #1)"
+                  moduleName = "CLCGroup"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/i_chiouhweyshen/CLCGroup/CLCGroup/SignViewController.swift"
+                  timestampString = "518694477.499344"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "23">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CLCGroup/SignViewController.swift"
+            timestampString = "518694694.51672"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "checkBtn(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

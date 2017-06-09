@@ -26,7 +26,9 @@ class ViewController: UIViewController {
     
     @IBAction func signBtn(_ sender: Any) {
         let vc  = storyboard?.instantiateViewController(withIdentifier: "SignViewController") as! SignViewController
-          self.navigationController?.pushViewController(vc, animated: true)
+         self.present(vc, animated:true, completion: nil)
+       
+        //self.navigationController?.pushViewController(vc, animated: true)
        
         
         
