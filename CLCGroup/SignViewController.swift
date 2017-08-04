@@ -31,13 +31,32 @@ class SignViewController: UIViewController {
     
     @IBAction func checkBtn(_ sender: Any) {
         Auth.auth().createUser(withEmail: userEmailTextField.text!, password: userPwdTextFiled.text!) { (user, error) in
-            print(user)
-            if error == nil{
+             print ("error:\(String(describing: error))")
+            //密碼要至少六碼
+            
+            self.userProfile =
+                ["姓名": self.userNameTextField.text!,
+                 "電話": self.userPhoneTextField.text!,
+                 "密碼": self.userPwdTextFiled.text!,
+                 "email": self.userEmailTextField.text!]
+            
+            
+              print(self.userProfile)
+            if ((error) != nil) {
+                print("錯誤產生")
                 
-                  self.ref.child(self.userEmailTextField.text!).setValue(self.userProfile)
                 
             }else{
-              print("錯誤產生")
+                for (_, value) in self.userProfile{
+                    print(value)
+                  let letter = self.eliminateSpecificCharacters(originStr: value as! String)
+                    print(letter)
+
+                }
+                
+                
+                
+             self.ref.childByAutoId().child(self.userEmailTextField.text!).setValue(self.userProfile)
             
             
             }
@@ -54,15 +73,13 @@ class SignViewController: UIViewController {
    
     override func viewDidLoad() {
         super.viewDidLoad()
-         configureDatabase()
+        configureDatabase()
+   
         
-        
-        userProfile =
-            ["姓名": self.userNameTextField.text!,
-             "電話": self.userPhoneTextField.text!,
-             "密碼": self.userPwdTextFiled.text!,
-             "email": self.userEmailTextField.text!]
+       
         // Do any additional setup after loading the view.
+  
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -70,10 +87,21 @@ class SignViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func eliminateSpecificCharacters(originStr:String){
+     
+        //let result = originStr.trimmingCharacters(in: CharacterSet(charactersIn: "@."))
+        let result = originStr.components(separatedBy: CharacterSet(charactersIn: "@.#$[]")).joined()
+        print(result)
+    }
+    
     func configureDatabase() {
         //Gets a FIRDatabaseReference for the root of your Firebase Database.
         ref = Database.database().reference()
     }
+    
+    
+    
+    
     
 
     /*
